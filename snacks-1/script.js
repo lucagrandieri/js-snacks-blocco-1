@@ -12,4 +12,3 @@ if (numberOne > numberTwo) {
     console.log('Il numero più grande è' + ' ' + numberTwo);
     
 }
-
