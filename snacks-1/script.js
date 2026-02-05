@@ -1,14 +1,14 @@
-let numberOne = prompt('Primo numero');
+let firstNumber = Number(prompt('Primo numero'));
 
-let numberTwo = prompt('Secondo numero');
+let secondNumber = Number(prompt('Secondo numero'));
 
-if (numberOne > numberTwo) {
-    console.log('Il numero più grande è' + ' ' + numberOne);
+if (firstNumber > secondNumber) {
+    console.log('Il numero più grande è' + ' ' + firstNumber);
     
-} else if (numberOne == numberTwo) {
+} else if (firstNumber == secondNumber) {
     console.log('I numeri sono uguali');
     
 } else {
-    console.log('Il numero più grande è' + ' ' + numberTwo);
+    console.log('Il numero più grande è' + ' ' + secondNumber);
     
 }
