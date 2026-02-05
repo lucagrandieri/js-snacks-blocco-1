@@ -2,10 +2,10 @@ let firstWord = prompt('Prima parola');
 
 let secondWord = prompt('Seconda parola');
 
-if (firstWord > secondWord) {
+if (firstWord < secondWord) {
     console.log(firstWord + ' ' + secondWord);
     
-} else if (secondWord > firstWord) {
+} else if (secondWord < firstWord) {
     console.log(secondWord + ' ' + firstWord);
     
 } else {
